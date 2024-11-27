@@ -1,0 +1,64 @@
+body{
+    background-color: purple;
+    padding: 10px;   
+}
+.search-div{
+   height: 10px;
+   background-color: rgb(77, 0, 77);
+   margin-bottom: 10px;
+   padding: 50px;
+   line-height: 0;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   position: fixed;
+   width: 100%;
+}
+form{
+    background-color: rgb(134, 62, 134);
+    padding: 10px;
+    position: fixed;
+    left: 50%;
+    top: 70px;
+    transform: translate(-50%, -50%);
+    width: 520px;
+    border-radius: 10px;
+}
+.fa{
+    color: rgb(209, 209, 209);
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input{
+    width: 480px;
+    height: 35px;
+    outline: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: inherit;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+}
+
+.menu-div{
+    color: rgb(167, 165, 165);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: rgb(53, 0, 53);
+    width: 260px;
+    height: 800px;
+    padding-left: 20px;
+    border-radius: 10px;
+    line-height: 2.5;
+    margin-top: 120px;
+    position: fixed;
+    display: inline-block;
+}
+.fa-map-marker{
+    position: fixed;
+    left: 1100px;
+    color: rgb(209, 209, 209);
+}

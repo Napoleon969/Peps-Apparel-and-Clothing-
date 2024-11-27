@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEP'S</title>
+    <style>
+        body{
+            background-color: rgb(172, 100, 240);
+        }
+        .text{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            margin: 0px;
+            font-weight: 700;
+            opacity: 0;
+            
+            
+            animation-name: texttadaa;
+            animation-duration: 3s;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+           
+            
+        }
+        @keyframes texttadaa{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;    
+                margin-bottom: 0px;
+                margin-top: 50px;
+            }
+        }
+        .text2{
+            color: white;
+            text-align: center;
+            margin: 10px;
+            opacity: 0;
+            animation-name: show;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+
+        }
+
+        @keyframes show{
+           
+            100%{
+                opacity: 1;
+            }
+        }
+
+        
+        .logo{
+
+            border-radius: 50%;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -200px;
+            opacity: 0;
+            border: 3px solid purple;
+           
+
+
+            animation-name: tadaa;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            
+
+            animation-fill-mode: forwards;
+
+        }
+        @keyframes tadaa{
+
+            0%{
+                scale: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: rotate(720deg);
+            }
+        }
+        .btn{
+            position: absolute;
+            top: 78%;
+            left: 50%;
+            margin-left: -60px;
+            width: 120px;
+            height: 50px;
+            font-size: 20px;
+            color: white;
+            background-image: url(images/1.jpg);
+            background-position: left;
+            border-radius: 10px;
+            transition: 0.7s;
+            opacity: 0;
+            animation-name: btnshow;
+            animation-delay: 5s;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            
+        }
+        @keyframes btnshow{
+            50%{
+                scale: 1.2;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .btn:hover{
+            background-position: right;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">Welcome to Pep's apparel and clothing</h1>
+    <h2 class="text2">crocheted with love, crafted with care</h2>
+<img class="logo" src="images/animationpractice.jpeg">
+<a href="home.html"><button class="btn">Shop now</button></a>
+    
+</body>
+</html>
