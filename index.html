@@ -3,98 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pep's apparell and clothing</title>
-    <link rel="stylesheet" a href="home.css">
-    <link rel="stylesheet" a href="products.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>PEP'S</title>
+    <style>
+        body{
+            background-color: rgb(172, 100, 240);
+        }
+        .text{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            margin: 0px;
+            font-weight: 700;
+            opacity: 0;
+            
+            
+            animation-name: texttadaa;
+            animation-duration: 3s;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+           
+            
+        }
+        @keyframes texttadaa{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;    
+                margin-bottom: 0px;
+                margin-top: 50px;
+            }
+        }
+        .text2{
+            color: white;
+            text-align: center;
+            margin: 10px;
+            opacity: 0;
+            animation-name: show;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+
+        }
+
+        @keyframes show{
+           
+            100%{
+                opacity: 1;
+            }
+        }
+
+        
+        .logo{
+
+            border-radius: 50%;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -200px;
+            opacity: 0;
+            border: 3px solid purple;
+           
+
+
+            animation-name: tadaa;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            
+
+            animation-fill-mode: forwards;
+
+        }
+        @keyframes tadaa{
+
+            0%{
+                scale: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: rotate(720deg);
+            }
+        }
+        .btn{
+            position: absolute;
+            top: 78%;
+            left: 50%;
+            margin-left: -60px;
+            width: 120px;
+            height: 50px;
+            font-size: 20px;
+            color: white;
+            background-image: url(images/1.jpg);
+            background-position: left;
+            border-radius: 10px;
+            transition: 0.7s;
+            opacity: 0;
+            animation-name: btnshow;
+            animation-delay: 5s;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            
+        }
+        @keyframes btnshow{
+            50%{
+                scale: 1.2;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .btn:hover{
+            background-position: right;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-   
-   <div class="search-div">
-    <form action="">
-        <input type="search" placeholder="Search...">
-        <i class="fa fa-search"></i>
-      </form>
-        <i class="fa fa-bar"></i>
-
-<i class="fa fa-map-marker"> University of Ibadan</i>
-   </div>
-
-   <div class="menu-div">
-   <a href="index.html"><i class="fa fa-home"> Home</i></a>
-    <br>
-    <i class="fa fa-shopping-basket"> Order</i>
-    <br>
-    <i class="fa fa-address-book"> Contacts</i>
-    <br>
-    <i class="fa fa-credit-card"> Payment</i>
-    <br>
-    <i class="fa fa-shipping-fast"> Delivery</i>
-    <br>
-    <i class="fa fa-shopping-cart"> Cart</i>
-    <br>
-    <i class="fa fa-calendar"> Due dates</i>
-</div>
-
-
-    <div class="item-div">
-        <img class="pics" src="images/Bucket-hat2.jpeg">
-        <p class="item-name">Bucket hat</p>
-        <p class="item-description">Chill in style with our soft, breathable bucket hat</p>
-        <a href="bucket-hat.html" ><button class="See-more">view</button></a>
-    </div>
-
-    <div class="item-div2">
-        <img class="pics" src="images/Mesh-top.jpeg">
-        <p class="item-name">Mesh top</p>
-        <p class="item-description">Crotchet perfection. Sheer, sexy and effortlessly cool</p>
-       <a href="mesh-top.html"> <button class="See-more">view</button></a>
-       
-    </div>
-
-    <div class="item-div2">
-        <img class="pics" src="images/Full-vest.jpeg">
-        <p class="item-name">Full vest</p>
-        <p class="item-description">Perfect for music festivals, events, or summer nights</p>
-      <a href="full-vest.html" >   <button class="See-more">view</button></a> 
-    </div>
-
-    <div class="item-div3">
-        <img class="pics" src="images/Shell-stich-top.jpeg">
-        <p class="item-name">Shell stich top</p>
-        <p class="item-description">Made from 100% cotton for breathable comfort</p>
-       <a href="shell-stich-top.html"> <button class="See-more">view</button></a>
-        
-    </div>
-
-    <div class="item-div4">
-        <img class="pics" src="images/Checkered-bag.jpeg">
-        <p class="item-name">Checkered bag</p>
-        <p class="item-description">Good for low-key anime lovers. Tanjiro it up</p>
-      <a href="checkered-bag.html" >   <button class="See-more">view</button></a> 
-    </div>
-
-    <div class="item-div4">
-        <img class="pics" src="images/Shrug.jpeg">
-        <p class="item-name">Shrug</p>
-        <p class="item-description">Live free, look good and ultimately shrug it up</p>
-      <a href="shrug.html" >   <button class="See-more">view</button></a> 
-    </div>
-
+    <h1 class="text">Welcome to Pep's apparel and clothing</h1>
+    <h2 class="text2">crocheted with love, crafted with care</h2>
+<img class="logo" src="images/animationpractice.jpeg">
+<a href="home.html"><button class="btn">Shop now</button></a>
     
-    <div class="item-div3">
-      <img class="pics" src="images/beanie1.jpg">
-      <p class="item-name">Beanie</p>
-      <p class="item-description">Made from 100% cotton for breathable comfort</p>
-     <a href="beanie.html"> <button class="See-more">view</button></a>
-      
-
-    
-
-
-    
-
-
-
 </body>
 </html>

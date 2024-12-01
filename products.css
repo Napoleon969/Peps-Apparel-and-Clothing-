@@ -1,31 +1,12 @@
+.container{
+    background-color: transparent;
+    width: 1000px;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: 120.5px;
+}
 .item-div{
     background-color: rgb(77, 0, 77);
-    margin-left: 300px;
-    margin-top: 120.5px;
-    display: inline-block;
-    padding: 30px;
-    border-radius: 20px;
-    margin-bottom: 5px;
-}
-.item-div2{
-    background-color: rgb(77, 0, 77);
-    margin-left: 5px;
-    margin-top: 120.5px;
-    display: inline-block;
-    padding: 30px;
-    border-radius: 20px;
-}   
-.item-div3{
-    background-color: rgb(77, 0, 77);
-    margin-left: 300px;
-    margin-top: 5px;
-    display: inline-block;
-    padding: 30px;
-    border-radius: 20px;
-    margin-bottom: 5px;
-}    
-.item-div4{
-    background-color: rgb(77, 0, 77);
     margin-left: 5px;
     margin-top: 5px;
     display: inline-block;
@@ -33,7 +14,6 @@
     border-radius: 20px;
     margin-bottom: 5px;
 }
-
 .pics{
     width: 250px;
     height:250px;
