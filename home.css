@@ -49,7 +49,7 @@ input{
     font-weight: 400;
     background-color: rgb(53, 0, 53);
     width: 260px;
-    height: 800px;
+    height: 100%;
     padding-left: 20px;
     border-radius: 10px;
     line-height: 2.5;
